@@ -2,7 +2,7 @@ openAI:
   api_key: 
 DB:
   BikeStores:
-    uri: "mssql+pyodbc://sa:password123#@localhost:1433/BikeStores?driver=ODBC+Driver+17+for+SQL+Server"
+    uri: 
     schemas:
       production:
         - brands
