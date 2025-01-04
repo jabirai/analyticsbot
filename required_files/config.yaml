@@ -1,0 +1,17 @@
+openAI:
+  api_key: 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
+DB:
+  BikeStores:
+    uri: "mssql+pyodbc://sa:password123#@localhost:1433/BikeStores?driver=ODBC+Driver+17+for+SQL+Server"
+    schemas:
+      production:
+        - brands
+        - categories
+        - products
+        - stocks
+      sales:
+        - customers
+        - order_items
+        - orders
+        - staffs
+        - stores

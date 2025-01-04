@@ -1,0 +1,214 @@
+brand_name,total_units_sold,month,year
+Electra,108,1,2016
+Pure Cycles,22,1,2016
+Surly,33,1,2016
+Heller,8,1,2016
+Trek,45,1,2016
+Ritchey,5,1,2016
+Electra,133,2,2016
+Trek,22,2,2016
+Ritchey,5,2,2016
+Heller,7,2,2016
+Pure Cycles,25,2,2016
+Surly,31,2,2016
+Trek,29,3,2016
+Ritchey,9,3,2016
+Surly,34,3,2016
+Pure Cycles,25,3,2016
+Electra,108,3,2016
+Heller,8,3,2016
+Surly,35,4,2016
+Ritchey,8,4,2016
+Trek,27,4,2016
+Electra,82,4,2016
+Heller,6,4,2016
+Pure Cycles,18,4,2016
+Surly,43,5,2016
+Trek,34,5,2016
+Ritchey,11,5,2016
+Electra,101,5,2016
+Heller,8,5,2016
+Pure Cycles,27,5,2016
+Trek,36,6,2016
+Ritchey,13,6,2016
+Electra,78,6,2016
+Pure Cycles,20,6,2016
+Surly,46,6,2016
+Heller,6,6,2016
+Surly,41,7,2016
+Trek,35,7,2016
+Heller,7,7,2016
+Ritchey,9,7,2016
+Pure Cycles,19,7,2016
+Electra,100,7,2016
+Heller,9,8,2016
+Electra,130,8,2016
+Pure Cycles,21,8,2016
+Surly,40,8,2016
+Trek,42,8,2016
+Ritchey,9,8,2016
+Pure Cycles,32,9,2016
+Heller,9,9,2016
+Electra,125,9,2016
+Trek,58,9,2016
+Surly,49,9,2016
+Ritchey,8,9,2016
+Electra,141,10,2016
+Pure Cycles,23,10,2016
+Heller,8,10,2016
+Surly,35,10,2016
+Ritchey,9,10,2016
+Trek,38,10,2016
+Electra,84,11,2016
+Heller,4,11,2016
+Pure Cycles,24,11,2016
+Ritchey,4,11,2016
+Trek,37,11,2016
+Surly,28,11,2016
+Pure Cycles,35,12,2016
+Electra,106,12,2016
+Surly,38,12,2016
+Trek,33,12,2016
+Ritchey,4,12,2016
+Heller,13,12,2016
+Heller,2,1,2017
+Sun Bicycles,40,1,2017
+Trek,79,1,2017
+Surly,24,1,2017
+Ritchey,4,1,2017
+Electra,60,1,2017
+Pure Cycles,6,1,2017
+Haro,14,1,2017
+Trek,78,2,2017
+Heller,10,2,2017
+Haro,24,2,2017
+Electra,72,2,2017
+Pure Cycles,6,2,2017
+Surly,26,2,2017
+Sun Bicycles,47,2,2017
+Trek,82,3,2017
+Ritchey,2,3,2017
+Heller,3,3,2017
+Sun Bicycles,44,3,2017
+Surly,50,3,2017
+Electra,85,3,2017
+Haro,21,3,2017
+Pure Cycles,9,3,2017
+Heller,3,4,2017
+Surly,19,4,2017
+Ritchey,1,4,2017
+Trek,56,4,2017
+Electra,73,4,2017
+Sun Bicycles,53,4,2017
+Pure Cycles,4,4,2017
+Haro,39,4,2017
+Trek,63,5,2017
+Heller,6,5,2017
+Haro,21,5,2017
+Sun Bicycles,54,5,2017
+Electra,59,5,2017
+Pure Cycles,5,5,2017
+Ritchey,5,5,2017
+Surly,28,5,2017
+Heller,3,6,2017
+Pure Cycles,1,6,2017
+Trek,90,6,2017
+Surly,24,6,2017
+Sun Bicycles,68,6,2017
+Electra,92,6,2017
+Haro,18,6,2017
+Haro,19,7,2017
+Pure Cycles,7,7,2017
+Electra,79,7,2017
+Heller,2,7,2017
+Ritchey,1,7,2017
+Trek,52,7,2017
+Surly,28,7,2017
+Sun Bicycles,61,7,2017
+Pure Cycles,13,8,2017
+Electra,80,8,2017
+Haro,21,8,2017
+Sun Bicycles,54,8,2017
+Surly,49,8,2017
+Ritchey,2,8,2017
+Trek,66,8,2017
+Heller,2,8,2017
+Surly,27,9,2017
+Sun Bicycles,59,9,2017
+Electra,45,9,2017
+Haro,27,9,2017
+Pure Cycles,3,9,2017
+Trek,72,9,2017
+Ritchey,2,9,2017
+Heller,2,9,2017
+Trek,86,10,2017
+Pure Cycles,10,10,2017
+Electra,64,10,2017
+Surly,26,10,2017
+Sun Bicycles,78,10,2017
+Haro,32,10,2017
+Trek,84,11,2017
+Surly,25,11,2017
+Pure Cycles,7,11,2017
+Electra,64,11,2017
+Sun Bicycles,34,11,2017
+Haro,27,11,2017
+Trek,63,12,2017
+Surly,27,12,2017
+Sun Bicycles,41,12,2017
+Ritchey,2,12,2017
+Pure Cycles,3,12,2017
+Heller,2,12,2017
+Haro,19,12,2017
+Electra,59,12,2017
+Electra,79,1,2018
+Heller,2,1,2018
+Pure Cycles,2,1,2018
+Strider,2,1,2018
+Haro,4,1,2018
+Ritchey,2,1,2018
+Trek,112,1,2018
+Surly,18,1,2018
+Sun Bicycles,20,1,2018
+Heller,3,2,2018
+Haro,7,2,2018
+Electra,49,2,2018
+Strider,3,2,2018
+Trek,72,2,2018
+Ritchey,2,2,2018
+Sun Bicycles,10,2,2018
+Surly,14,2,2018
+Electra,118,3,2018
+Haro,6,3,2018
+Pure Cycles,2,3,2018
+Heller,1,3,2018
+Strider,8,3,2018
+Surly,25,3,2018
+Trek,106,3,2018
+Sun Bicycles,24,3,2018
+Pure Cycles,7,4,2018
+Electra,215,4,2018
+Haro,32,4,2018
+Surly,43,4,2018
+Heller,4,4,2018
+Sun Bicycles,41,4,2018
+Ritchey,1,4,2018
+Trek,225,4,2018
+Strider,12,4,2018
+Trek,1,6,2018
+Electra,4,7,2018
+Sun Bicycles,1,7,2018
+Trek,6,7,2018
+Electra,5,8,2018
+Trek,2,8,2018
+Surly,1,8,2018
+Sun Bicycles,1,8,2018
+Electra,2,9,2018
+Trek,2,9,2018
+Electra,7,10,2018
+Sun Bicycles,1,10,2018
+Electra,4,11,2018
+Trek,3,11,2018
+Surly,1,11,2018
+Trek,3,12,2018
+Electra,1,12,2018
