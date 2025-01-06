@@ -1,6 +1,6 @@
 from langchain_experimental.tools.python.tool import PythonAstREPLTool
-from helper_functions.tools.run_sql import RunSQL
-from helper_functions import config
+from utils.tools.run_sql import RunSQL
+from utils import config
 from langchain_openai import ChatOpenAI
 from typing import Optional, Type, Dict
 from langchain.schema.messages import HumanMessage, SystemMessage
@@ -11,7 +11,7 @@ from langchain.agents.agent_types import AgentType
 from langchain.callbacks.manager import CallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.prompts import HumanMessagePromptTemplate
-from helper_functions.DBconnector import DBConnector
+from utils.DBconnector import DBConnector
 import os
 
 
@@ -20,13 +20,13 @@ class AnalysisAgent:
 
         self.db_connector = DBConnector()
         self.api_key = self.db_connector.get_credentials_object.get_api_key()
-        if os.path.exists(r"./required_files/hierarchy.txt"):
-            with open(r"./required_files/hierarchy.txt", "r") as f:
+        if os.path.exists(r"./configs/hierarchy.txt"):
+            with open(r"./configs/hierarchy.txt", "r") as f:
                 self.hierarchy = f.read()
         else:
-            raise FileNotFoundError('''hierarchy.txt not found in required_files folder
+            raise FileNotFoundError('''hierarchy.txt not found in configs folder
 to resolve this please ensure you have correctly setup your config.yaml file
-in the required_files folder and ran the generate_hierarchy function.
+in the configs folder and ran the generate_hierarchy function.
 For more information please see the README.md file.''')
 
         # set up llm
@@ -58,7 +58,7 @@ For more information please see the README.md file.''')
         self.Initial_chat_template = self.get_initial_prompt()
 
     def get_initial_prompt(self):
-        with open(r'./required_files/prompt.txt', "r", encoding="utf-8") as f:
+        with open(r'./configs/prompt.txt', "r", encoding="utf-8") as f:
             content_prompt_raw = f.read()
             content_prompt = content_prompt_raw.format(
                 hierarchy=self.hierarchy)

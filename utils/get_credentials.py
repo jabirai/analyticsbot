@@ -1,15 +1,18 @@
 import yaml
+from dotenv import dotenv_values
+vars = dotenv_values(".env")
+
 
 class get_credentials:
     def __init__(self):
-        with open("./required_files/config.yaml", "r") as file:
+        with open("./configs/config.yaml", "r") as file:
             credentials = yaml.safe_load(file)
         self.credentials = credentials
 
     def get_api_key(self):
         """Returns api key that is in config."""
-        if self.credentials["openAI"]["api_key"] is not None:
-            api_key = self.credentials["openAI"]["api_key"]
+        if vars['openapi_key'] is not None:
+            api_key = vars['openapi_key']
             return api_key
         else:
             raise Warning(

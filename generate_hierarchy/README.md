@@ -1,6 +1,6 @@
 This folder details how to generate a simple hierarchy that can be used to populate our DB analytics bot's prompt.
 
-- all the function generate_hierarchy() requires is that 'config' exisits in the correct format in the **required_files** folder.
+- all the function generate_hierarchy() requires is that 'config' exisits in the correct format in the **configs** folder.
 
 **note:**
 * For production databases this hierarchy will typically not be enough (unless you have very clean tables with neatly

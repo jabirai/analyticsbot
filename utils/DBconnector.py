@@ -1,4 +1,4 @@
-from helper_functions.get_credentials import get_credentials
+from get_credentials import get_credentials
 from sqlalchemy import create_engine
 import sqlalchemy
 import io
