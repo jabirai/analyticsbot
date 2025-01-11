@@ -1,5 +1,1 @@
-SELECT TOP 5 p.product_name, SUM(oi.quantity) AS total_units_sold 
-FROM BikeStores.sales.order_items AS oi 
-JOIN BikeStores.production.products AS p ON oi.product_id = p.product_id 
-GROUP BY p.product_name 
-ORDER BY total_units_sold DESC;
+SELECT TOP 10 p.product_id, p.product_name, s.quantity FROM BikeStores.production.products p JOIN BikeStores.production.stocks s ON p.product_id = s.product_id WHERE s.quantity < 5;

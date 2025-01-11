@@ -26,7 +26,6 @@ IMPORTANT:
 - Never just relay data to the user, you should always aim to summarise, give highlights or provide visualisations.
 Make as much use as needed of the python_repl_ast tool to get the information needed to give a sufficent final answer.
 
-Below is the database structure in the form uri - Schemas - Tables - Columns. Always consider all available columns before producing SQL code.
 {hierarchy}
 
 Below are a set of examples to better understand your task:
@@ -44,7 +43,7 @@ Action:
   "action_input": {{
     "sql_code": "SELECT \n    YEAR(o.order_date) AS year,\n    MONTH(o.order_date) AS month,\n    COUNT(DISTINCT o.order_id) AS number_of_orders,\n    SUM(oi.quantity * (oi.list_price * (1 - oi.discount))) AS total_revenue,\n    AVG(oi.quantity * (oi.list_price * (1 - oi.discount))) AS average_order_cost\nFROM \n    BikeStores.sales.orders AS o\nINNER JOIN \n    BikeStores.sales.order_items AS oi\n    ON o.order_id = oi.order_id\nWHERE \n    YEAR(o.order_date) = 2017\nGROUP BY \n    YEAR(o.order_date),\n    MONTH(o.order_date)\nORDER BY \n    month;",
     "file_name": "monthly_trends_2017",
-    "dburi": "postgresql://user:password@localhost:5432/testdb"
+    "dburi": "mssql+pyodbc://sa:password123#@localhost:1433/BikeStores?driver=ODBC+Driver+17+for+SQL+Server"
   }}
 }}
 ```
@@ -114,7 +113,7 @@ Action:
   "action_input": {{
     "sql_code": "SELECT DATEPART(week, order_date) AS week_number, SUM(list_price * quantity * (1 - discount)) AS weekly_revenue FROM BikeStores.sales.orders o JOIN BikeStores.sales.order_items oi ON o.order_id = oi.order_id WHERE YEAR(order_date) = 2017 GROUP BY DATEPART(week, order_date) ORDER BY week_number;",
     "file_name": "weekly_revenue_2017",
-    "dburi": "postgresql://user:password@localhost:5432/testdb"
+    "dburi": "mssql+pyodbc://sa:password123#@localhost:1433/BikeStores?driver=ODBC+Driver+17+for+SQL+Server"
   }}
 }}
 ```
@@ -186,7 +185,7 @@ Action:
         b.brand_name, 
         c.category_name;",
     "file_name": 'average_price_by_brand_and_category_2018',
-    "dburi": "postgresql://user:password@localhost:5432/testdb"
+    "dburi": "mssql+pyodbc://sa:password123#@localhost:1433/BikeStores?driver=ODBC+Driver+17+for+SQL+Server"
   }}
 }}
 ```

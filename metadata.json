@@ -1,0 +1,89 @@
+{
+    "db_accessadmin": {},
+    "db_backupoperator": {},
+    "db_datareader": {},
+    "db_datawriter": {},
+    "db_ddladmin": {},
+    "db_denydatareader": {},
+    "db_denydatawriter": {},
+    "db_owner": {},
+    "db_securityadmin": {},
+    "dbo": {},
+    "guest": {},
+    "INFORMATION_SCHEMA": {},
+    "production": {
+        "brands": [
+            "brand_id",
+            "brand_name"
+        ],
+        "categories": [
+            "category_id",
+            "category_name"
+        ],
+        "products": [
+            "product_id",
+            "product_name",
+            "brand_id",
+            "category_id",
+            "model_year",
+            "list_price"
+        ],
+        "stocks": [
+            "store_id",
+            "product_id",
+            "quantity"
+        ]
+    },
+    "sales": {
+        "customers": [
+            "customer_id",
+            "first_name",
+            "last_name",
+            "phone",
+            "email",
+            "street",
+            "city",
+            "state",
+            "zip_code"
+        ],
+        "order_items": [
+            "order_id",
+            "item_id",
+            "product_id",
+            "quantity",
+            "list_price",
+            "discount"
+        ],
+        "orders": [
+            "order_id",
+            "customer_id",
+            "order_status",
+            "order_date",
+            "required_date",
+            "shipped_date",
+            "store_id",
+            "staff_id"
+        ],
+        "staffs": [
+            "staff_id",
+            "first_name",
+            "last_name",
+            "email",
+            "phone",
+            "active",
+            "store_id",
+            "manager_id"
+        ],
+        "stores": [
+            "store_id",
+            "store_name",
+            "phone",
+            "email",
+            "street",
+            "city",
+            "state",
+            "zip_code"
+        ]
+    },
+    "sys": {}
+}
