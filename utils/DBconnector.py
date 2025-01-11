@@ -1,4 +1,4 @@
-from get_credentials import get_credentials
+from utils.get_credentials import get_credentials
 from sqlalchemy import create_engine
 import sqlalchemy
 import io
